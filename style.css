@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #363543;
+}
+.name{
+    display: flex;
+    font-size: 40px;
+    padding: 50px;
+    color: white;
+}
+.list{
+    display: flex;
+    padding-right: 30px;
+    color: white;
+    list-style: none;
+    gap: 70px;
+    position: absolute;
+    top: 70px;
+    left: 80vh;
+}
+.emoji{
+    color: white;
+    display: flex;
+    padding-right: 60px;
+    gap: 50px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+h1{
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+}
+img{
+    width: 40%;
+    border-radius: 50vh;
+    position: absolute;
+    top: 150px;
+    left: 72vh;
+}
+.skills{
+    width: 30%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    gap: 10px;
+}
+.details{
+    font-size: 15px;
+}
